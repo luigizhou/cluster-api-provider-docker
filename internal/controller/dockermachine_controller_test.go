@@ -27,7 +27,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	infrastructurev1alpha1 "github.com/myname/cluster-api-provider-docker/api/v1alpha1"
+	infrastructurev1alpha1 "github.com/luigizhou/cluster-api-provider-docker/api/v1alpha1"
 )
 
 var _ = Describe("DockerMachine Controller", func() {

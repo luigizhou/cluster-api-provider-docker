@@ -6,7 +6,7 @@ domain: cluster.x-k8s.io
 layout:
 - go.kubebuilder.io/v4
 projectName: cluster-api-provider-docker
-repo: github.com/myname/cluster-api-provider-docker
+repo: github.com/luigizhou/cluster-api-provider-docker
 resources:
 - api:
     crdVersion: v1
@@ -15,7 +15,7 @@ resources:
   domain: cluster.x-k8s.io
   group: infrastructure
   kind: DockerCluster
-  path: github.com/myname/cluster-api-provider-docker/api/v1alpha1
+  path: github.com/luigizhou/cluster-api-provider-docker/api/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -24,6 +24,6 @@ resources:
   domain: cluster.x-k8s.io
   group: infrastructure
   kind: DockerMachine
-  path: github.com/myname/cluster-api-provider-docker/api/v1alpha1
+  path: github.com/luigizhou/cluster-api-provider-docker/api/v1alpha1
   version: v1alpha1
 version: "3"

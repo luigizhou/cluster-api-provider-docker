@@ -25,7 +25,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/myname/cluster-api-provider-docker/test/utils"
+	"github.com/luigizhou/cluster-api-provider-docker/test/utils"
 )
 
 var (
